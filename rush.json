@@ -387,6 +387,10 @@
     {
       "packageName": "@lenus/components",
       "projectFolder": "libs/components"
+    },
+    {
+      "packageName": "@lenus/icons",
+      "projectFolder": "libs/icons"
     }
     // {
     //   /**

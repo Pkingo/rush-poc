@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@rush-temp/components': file:./projects/components.tgz
+  '@rush-temp/icons': file:./projects/icons.tgz
   '@rush-temp/landing': file:./projects/landing.tgz
   '@size-limit/preset-small-lib': ^5.0.4
   '@testing-library/jest-dom': ^5.11.4
@@ -19,6 +20,7 @@ specifiers:
 
 dependencies:
   '@rush-temp/components': file:projects/components.tgz_@types+node@12.20.25
+  '@rush-temp/icons': file:projects/icons.tgz_@types+node@12.20.25
   '@rush-temp/landing': file:projects/landing.tgz
   '@size-limit/preset-small-lib': 5.0.4_size-limit@5.0.4
   '@testing-library/jest-dom': 5.14.1
@@ -14947,7 +14949,7 @@ packages:
     dev: false
 
   file:projects/components.tgz_@types+node@12.20.25:
-    resolution: {integrity: sha512-ytv/VmTyHEEjQpYuRlWwNyhSMeskUsEhM+Sbg0ikqkLXkleFq11efWJO8N3bJwvVirCLXh9Tz9F9tNgcBw0dPA==, tarball: file:projects/components.tgz}
+    resolution: {integrity: sha512-m9OaTAnscV2EowMjWR/xFGmWdzEGXYAwZpcZjDYHTGZkn3j3GrLFp52XEEvWOulsg6hAq/rSXcGZ85ZtZ3UxQw==, tarball: file:projects/components.tgz}
     id: file:projects/components.tgz
     name: '@rush-temp/components'
     version: 0.0.0
@@ -14973,8 +14975,31 @@ packages:
       - webpack-command
     dev: false
 
+  file:projects/icons.tgz_@types+node@12.20.25:
+    resolution: {integrity: sha512-KEygg2qSKB4m/1pPP+4Hk1Mypo4ZQ1xMYje+RF/11k2FhQ+o9PwvxJfE/uMjCFFKUFsyPoI/UWjUQIpClp1kbA==, tarball: file:projects/icons.tgz}
+    id: file:projects/icons.tgz
+    name: '@rush-temp/icons'
+    version: 0.0.0
+    dependencies:
+      '@size-limit/preset-small-lib': 5.0.4_d0b2251be4717bfb3085dd7b5c14eb8f
+      husky: 7.0.2
+      size-limit: 5.0.4
+      tsdx: 0.14.1_@types+node@12.20.25
+      tslib: 2.3.1
+      typescript: 4.4.3
+    transitivePeerDependencies:
+      - '@types/babel__core'
+      - '@types/node'
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
+      - webpack-cli
+      - webpack-command
+    dev: false
+
   file:projects/landing.tgz:
-    resolution: {integrity: sha512-+1CHRN2hLynWJJpZOoLMk29cJEJoy1Te0ykyD8bnjjGValP9WCLWZzk/VA2K3Dbh1jmEr4KXDCWv7zenasMaew==, tarball: file:projects/landing.tgz}
+    resolution: {integrity: sha512-N/816CWNs/Yp0RaYkYv9FlrF0MHN8CQCJlp01JdyYiRnaP/X23igbZOBm2XCejhKOVxc51Q04R6Micjig4KAUA==, tarball: file:projects/landing.tgz}
     name: '@rush-temp/landing'
     version: 0.0.0
     dependencies:

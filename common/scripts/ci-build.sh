@@ -12,3 +12,4 @@ rush build
 # deploys app
 rush deploy --overwrite -p landing
 (cd common/deploy/apps/landing && rushx build)
+ 

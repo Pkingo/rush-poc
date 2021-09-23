@@ -1,0 +1,20 @@
+{
+  "name": "rush-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "(cd apps/landing && rushx start)",
+    "cd:build": "./common/scripts/ci-build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenus-ehealth/rush-poc.git"
+  },
+  "author": "Philip Andreas Kingo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenus-ehealth/rush-poc/issues"
+  },
+  "homepage": "https://github.com/lenus-ehealth/rush-poc#readme"
+}
