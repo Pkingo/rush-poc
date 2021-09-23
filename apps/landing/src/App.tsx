@@ -1,11 +1,7 @@
-import { Thing } from "@renus/components";
+import {} from "@renus/components";
 
 function App() {
-  return (
-    <div className="App">
-      <Thing />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
