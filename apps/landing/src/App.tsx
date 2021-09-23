@@ -1,4 +1,4 @@
-import { Thing } from "@lenus/components";
+import { Thing } from "@renus/components";
 
 function App() {
   return (

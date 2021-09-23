@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@lenus/components",
+  "name": "@renus/components",
   "author": "Philip Andreas Kingo",
   "module": "dist/components.esm.js",
   "size-limit": [
@@ -59,6 +59,6 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
-    "@lenus/icons": "~0.1.0"
+    "@renus/icons": "~0.1.0"
   }
 }

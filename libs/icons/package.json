@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@lenus/icons",
+  "name": "@renus/icons",
   "author": "Philip Andreas Kingo",
   "module": "dist/icons.esm.js",
   "size-limit": [

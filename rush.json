@@ -385,11 +385,11 @@
       "projectFolder": "apps/landing"
     },
     {
-      "packageName": "@lenus/components",
+      "packageName": "@renus/components",
       "projectFolder": "libs/components"
     },
     {
-      "packageName": "@lenus/icons",
+      "packageName": "@renus/icons",
       "projectFolder": "libs/icons"
     }
     // {
