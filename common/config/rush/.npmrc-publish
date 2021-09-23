@@ -34,6 +34,6 @@
 
 #
 
-registry.npmjs.org/:\_authToken=a0f9f33a-50aa-4c66-b278-d41b91570420
+# //registry.npmjs.org/:\_authToken=${NPM_AUTH_TOKEN}
 
 #
