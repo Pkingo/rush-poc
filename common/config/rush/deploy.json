@@ -71,15 +71,17 @@
     //   /**
     //    * The full package name of the project, which must be declared in rush.json.
     //    */
-    //   "projectName": "@my-scope/my-project",
+      "projectName": "landing",
     //
     //   /**
     //    * A list of additional local Rush projects to be deployed with this project (beyond the package.json
     //    * dependencies).  Specify full package names, which must be declared in rush.json.
     //    */
-    //   "additionalProjectsToInclude": [
-    //     // "@my-scope/my-project2"
-    //   ],
+      "additionalProjectsToInclude": [
+        "@renus/components",
+        "@renus/icons",
+        "@renus/utils"
+      ],
     //
     //   /**
     //    * When deploying a project, the included dependencies are normally determined automatically based on

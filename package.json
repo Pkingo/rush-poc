@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "(cd apps/landing && rushx start)",
+    "start": "serve -S apps/landing/build",
     "cd:build": "./common/scripts/ci-build.sh"
   },
   "repository": {
