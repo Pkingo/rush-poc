@@ -391,6 +391,14 @@
     {
       "packageName": "@renus/icons",
       "projectFolder": "libs/icons"
+    },
+    {
+      "packageName": "@renus/types",
+      "projectFolder": "libs/types"
+    },
+    {
+      "packageName": "@renus/utils",
+      "projectFolder": "libs/utils"
     }
     // {
     //   /**

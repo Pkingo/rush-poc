@@ -1,1 +1,3 @@
-export declare const sum: (a: number, b: number) => number;
+export * from "@material-ui/icons";
+export * from "./Custom/CustomStepIcon";
+export * from "./Custom/CustomReminderIcon";

@@ -4,6 +4,8 @@ specifiers:
   '@rush-temp/components': file:./projects/components.tgz
   '@rush-temp/icons': file:./projects/icons.tgz
   '@rush-temp/landing': file:./projects/landing.tgz
+  '@rush-temp/types': file:./projects/types.tgz
+  '@rush-temp/utils': file:./projects/utils.tgz
   '@size-limit/preset-small-lib': ^5.0.4
   '@testing-library/jest-dom': ^5.11.4
   '@testing-library/react': ^11.1.0
@@ -22,6 +24,8 @@ dependencies:
   '@rush-temp/components': file:projects/components.tgz_@types+node@12.20.25
   '@rush-temp/icons': file:projects/icons.tgz_@types+node@12.20.25
   '@rush-temp/landing': file:projects/landing.tgz
+  '@rush-temp/types': file:projects/types.tgz_@types+node@12.20.25
+  '@rush-temp/utils': file:projects/utils.tgz_@types+node@12.20.25
   '@size-limit/preset-small-lib': 5.0.4_size-limit@5.0.4
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 11.2.7_react-dom@17.0.2
@@ -2624,11 +2628,19 @@ packages:
   /@types/react-dom/17.0.9:
     resolution: {integrity: sha512-wIvGxLfgpVDSAMH5utdL9Ngm5Owu0VsGmldro3ORLXV8CShrL8awVj06NuEXFQ5xyaYfdca7Sgbk/50Ri1GdPg==}
     dependencies:
-      '@types/react': 17.0.22
+      '@types/react': 17.0.24
     dev: false
 
   /@types/react/17.0.22:
     resolution: {integrity: sha512-kq/BMeaAVLJM6Pynh8C2rnr/drCK+/5ksH0ch9asz+8FW3DscYCIEFtCeYTFeIx/ubvOsMXmRfy7qEJ76gM96A==}
+    dependencies:
+      '@types/prop-types': 15.7.4
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.9
+    dev: false
+
+  /@types/react/17.0.24:
+    resolution: {integrity: sha512-eIpyco99gTH+FTI3J7Oi/OH8MZoFMJuztNRimDOJwH4iGIsKV2qkGnk4M9VzlaVWeEEWLWSQRy0FEA0Kz218cg==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -14949,7 +14961,7 @@ packages:
     dev: false
 
   file:projects/components.tgz_@types+node@12.20.25:
-    resolution: {integrity: sha512-m9OaTAnscV2EowMjWR/xFGmWdzEGXYAwZpcZjDYHTGZkn3j3GrLFp52XEEvWOulsg6hAq/rSXcGZ85ZtZ3UxQw==, tarball: file:projects/components.tgz}
+    resolution: {integrity: sha512-RTvZJGBZ6M3D16CHl5Pl2sZ2gsV10NKfgs1/+y7KHbMQsnxvMluzJwjboRH5jjajzD8feFVj/bFbPKIzYd3MFw==, tarball: file:projects/components.tgz}
     id: file:projects/components.tgz
     name: '@rush-temp/components'
     version: 0.0.0
@@ -14976,13 +14988,17 @@ packages:
     dev: false
 
   file:projects/icons.tgz_@types+node@12.20.25:
-    resolution: {integrity: sha512-KEygg2qSKB4m/1pPP+4Hk1Mypo4ZQ1xMYje+RF/11k2FhQ+o9PwvxJfE/uMjCFFKUFsyPoI/UWjUQIpClp1kbA==, tarball: file:projects/icons.tgz}
+    resolution: {integrity: sha512-jNlWHfkypUlEl7AGXaBOweadLw46PaDU2KHqjIMAhcA8pmMqUs9DQrq//ySG8t14hvHipDx+Ub6t/2L9jq8NhA==, tarball: file:projects/icons.tgz}
     id: file:projects/icons.tgz
     name: '@rush-temp/icons'
     version: 0.0.0
     dependencies:
       '@size-limit/preset-small-lib': 5.0.4_d0b2251be4717bfb3085dd7b5c14eb8f
+      '@types/react': 17.0.24
+      '@types/react-dom': 17.0.9
       husky: 7.0.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
       size-limit: 5.0.4
       tsdx: 0.14.1_@types+node@12.20.25
       tslib: 2.3.1
@@ -14999,7 +15015,7 @@ packages:
     dev: false
 
   file:projects/landing.tgz:
-    resolution: {integrity: sha512-N/816CWNs/Yp0RaYkYv9FlrF0MHN8CQCJlp01JdyYiRnaP/X23igbZOBm2XCejhKOVxc51Q04R6Micjig4KAUA==, tarball: file:projects/landing.tgz}
+    resolution: {integrity: sha512-NQqRxBpO6b5uWN/TUQLQ83XqFcun14mfroNU8Omynh1REfcFop/1Kz2pg2chToOJis4Na7MDR9E+y+klQwKKnQ==, tarball: file:projects/landing.tgz}
     name: '@rush-temp/landing'
     version: 0.0.0
     dependencies:
@@ -15032,4 +15048,50 @@ packages:
       - webpack-command
       - webpack-hot-middleware
       - webpack-plugin-serve
+    dev: false
+
+  file:projects/types.tgz_@types+node@12.20.25:
+    resolution: {integrity: sha512-RnoiAZ9abkQz58VFSUll2vUD8lccGmI6djZDJwhZ5freHQ6JRIBHXVMdlkPzuz/oM/l6u09RpJHZVnnC/jOlwA==, tarball: file:projects/types.tgz}
+    id: file:projects/types.tgz
+    name: '@rush-temp/types'
+    version: 0.0.0
+    dependencies:
+      '@size-limit/preset-small-lib': 5.0.4_d0b2251be4717bfb3085dd7b5c14eb8f
+      husky: 7.0.2
+      size-limit: 5.0.4
+      tsdx: 0.14.1_@types+node@12.20.25
+      tslib: 2.3.1
+      typescript: 4.4.3
+    transitivePeerDependencies:
+      - '@types/babel__core'
+      - '@types/node'
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
+      - webpack-cli
+      - webpack-command
+    dev: false
+
+  file:projects/utils.tgz_@types+node@12.20.25:
+    resolution: {integrity: sha512-o1+a2rbneh6h36zBabxmOCx5YaN3T5BlQ8/ObUHr/Y7w8+Gm882QFZPfype4JcGCyyl06bzkhgpd8q92Xwr83w==, tarball: file:projects/utils.tgz}
+    id: file:projects/utils.tgz
+    name: '@rush-temp/utils'
+    version: 0.0.0
+    dependencies:
+      '@size-limit/preset-small-lib': 5.0.4_d0b2251be4717bfb3085dd7b5c14eb8f
+      husky: 7.0.2
+      size-limit: 5.0.4
+      tsdx: 0.14.1_@types+node@12.20.25
+      tslib: 2.3.1
+      typescript: 4.4.3
+    transitivePeerDependencies:
+      - '@types/babel__core'
+      - '@types/node'
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
+      - webpack-cli
+      - webpack-command
     dev: false
